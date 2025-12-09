@@ -9,20 +9,20 @@ type AcordeonKey = "formacion" | "especializacion" | "proyectos";
 const ITEMS: { key: AcordeonKey; title: string; content: string; icon: React.ReactNode }[] = [
     {
         key: "formacion",
-        title: "Formación clave",
-        content: "Contabilidad y fiscalidad mexicana. Excel avanzado y Power Query. Introducción a Business Intelligence.",
+        title: "La Teoría",
+        content: "Estudiar el mapa para saber cuándo y cómo soltarlo.",
         icon: <BookOpen className="w-5 h-5" />
     },
     {
         key: "especializacion",
-        title: "Especialización técnica",
-        content: "Automatización con Python y TypeScript. Validadores y gestores de datos fiscales. Modelos de proyección de impuestos.",
+        title: "La Adaptación",
+        content: "Aprender nuevos lenguajes cuando los antiguos dejaron de servir.",
         icon: <Code2 className="w-5 h-5" />
     },
     {
         key: "proyectos",
-        title: "Proyectos",
-        content: "EVOAPP: sistema operativo personal financiero. EVORIX Tools: validadores y scripts contables. Laboratorios de datos y ciberseguridad básica.",
+        title: "La Obra",
+        content: "Construir refugios. Espacios donde la lógica y la intuición conviven.",
         icon: <Rocket className="w-5 h-5" />
     },
 ];
@@ -42,27 +42,27 @@ export default function ReconocimientosSection() {
                     {/* Left: Intro & Stats */}
                     <div className="lg:col-span-5">
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-                            Formación y Reconocimientos
+                            El Aprendizaje
                         </h2>
                         <p className="text-xl text-primary dark:text-primary font-medium mb-6">
-                            Aprendizaje continuo, especialización técnica y proyectos reales.
+                            Lecciones que dejaron marcas, pero también dirección.
                         </p>
                         <p className="text-slate-600 dark:text-text-muted mb-8 leading-relaxed">
-                            He construido mi perfil combinando contabilidad, automatización y análisis de datos.
+                            No son trofeos, son recordatorios de lo que costó llegar aquí.
                         </p>
 
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 mb-8">
                             <div className="text-center p-4 bg-white dark:bg-evo rounded-xl shadow-sm border border-slate-100 dark:border-white/5">
                                 <div className="text-3xl font-bold text-slate-900 dark:text-white mb-1">40+</div>
-                                <div className="text-xs text-slate-500 dark:text-slate-400 font-medium uppercase">cursos y certificaciones</div>
+                                <div className="text-xs text-slate-500 dark:text-slate-400 font-medium uppercase">lecciones</div>
                             </div>
                             <div className="text-center p-4 bg-white dark:bg-evo rounded-xl shadow-sm border border-slate-100 dark:border-white/5">
                                 <div className="text-3xl font-bold text-slate-900 dark:text-white mb-1">10+</div>
-                                <div className="text-xs text-slate-500 dark:text-slate-400 font-medium uppercase">proyectos de automatización</div>
+                                <div className="text-xs text-slate-500 dark:text-slate-400 font-medium uppercase">intentos</div>
                             </div>
                             <div className="text-center p-4 bg-white dark:bg-evo rounded-xl shadow-sm border border-slate-100 dark:border-white/5 col-span-2 sm:col-span-1">
                                 <div className="text-3xl font-bold text-slate-900 dark:text-white mb-1">6+</div>
-                                <div className="text-xs text-slate-500 dark:text-slate-400 font-medium uppercase">años en contabilidad</div>
+                                <div className="text-xs text-slate-500 dark:text-slate-400 font-medium uppercase">años de viaje</div>
                             </div>
                         </div>
 
@@ -70,7 +70,7 @@ export default function ReconocimientosSection() {
                             href="#"
                             className="inline-flex items-center text-primary dark:text-primary font-semibold hover:text-primary-soft transition-colors"
                         >
-                            Ver portafolio completo
+                            Ver trayectoria
                             <ArrowRight className="ml-2 w-4 h-4" />
                         </a>
                     </div>

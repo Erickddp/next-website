@@ -9,47 +9,47 @@ type ServicioKey = "asesoria" | "contabilidad" | "automatizacion" | "proyeccione
 const SERVICES: { key: ServicioKey; label: string; title: string; intro: string; bullets: string[]; price?: string; }[] = [
     {
         key: "asesoria",
-        label: "El Diagnóstico",
-        title: "Entender la caída",
-        intro: "Antes de reconstruir, [NOMBRE] tuvo que entender por qué todo colapsó. Esta herramienta disecciona la realidad actual.",
+        label: "El Inicio",
+        title: "Mirar de frente",
+        intro: "Antes de avanzar, hay que saber dónde estamos. Sin juicios, solo la verdad del momento presente.",
         bullets: [
-            "Detección de fracturas en el sistema.",
-            "Estrategias para sobrevivir al escrutinio.",
-            "Acompañamiento en el proceso de redención."
+            "Entender el punto de partida.",
+            "Aceptar lo que necesita cambio.",
+            "Trazar una ruta honesta."
         ],
-        price: "Costo: Lo que sea necesario."
+        price: "El valor de la claridad."
     },
     {
         key: "contabilidad",
-        label: "La Memoria",
-        title: "Registro de los hechos",
-        intro: "Sin un registro fiel del pasado, estás condenado a repetirlo. El orden es la primera línea de defensa.",
+        label: "La Claridad",
+        title: "Poner orden",
+        intro: "Cuando el ruido baja, las respuestas aparecen. Organizar el pasado es el primer acto de paz.",
         bullets: [
-            "Organización de la evidencia (ingresos y gastos).",
-            "Conciliación de la verdad bancaria.",
-            "Reportes para no caminar a ciegas."
+            "Limpiar lo innecesario.",
+            "Ordenar cada pieza en su lugar.",
+            "Construir una base sólida."
         ]
     },
     {
         key: "automatizacion",
-        label: "El Autómata",
-        title: "Delegar en la máquina",
-        intro: "[NOMBRE] creó sirvientes digitales para hacer el trabajo sucio. La repetición es la muerte del espíritu.",
+        label: "El Ritmo",
+        title: "Soltar el peso",
+        intro: "Lo que se repite cansa el espíritu. Dejar que el sistema fluya permite volver a respirar.",
         bullets: [
-            "Bots que no duermen ni cometen errores.",
-            "Sistemas que hablan entre sí en silencio.",
-            "Vigilancia perpetua de los indicadores clave."
+            "Delegar lo mecánico.",
+            "Crear flujos silenciosos.",
+            "Recuperar el tiempo perdido."
         ]
     },
     {
         key: "proyecciones",
-        label: "El Oráculo",
-        title: "Ver el futuro",
-        intro: "No es magia, es matemática. [NOMBRE] aprendió a ver la tormenta antes de que tocara tierra.",
+        label: "La Mirada",
+        title: "Ver lejos",
+        intro: "No es adivinar, es proyectar luz hacia adelante para caminar con certeza.",
         bullets: [
-            "Simulación de escenarios catastróficos y óptimos.",
-            "Proyección de cargas y lastres futuros.",
-            "Mapas de navegación para aguas turbulentas."
+            "Imaginar escenarios posibles.",
+            "Preparar el equipaje necesario.",
+            "Avanzar sin miedo."
         ]
     }
 ];
@@ -63,10 +63,10 @@ export default function ServiciosSection() {
             <div className="container-evo">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-                        Herramientas del Exilio
+                        El Método
                     </h2>
                     <p className="text-lg md:text-xl text-slate-600 dark:text-text-muted max-w-2xl mx-auto">
-                        Lo que [NOMBRE] fabricó para recuperar el control.
+                        Pequeñas etapas para recuperar el control.
                     </p>
                 </div>
 
@@ -114,18 +114,18 @@ export default function ServiciosSection() {
                                 <div>
                                     {activeService.price ? (
                                         <>
-                                            <span className="block text-sm text-slate-500 dark:text-slate-400 uppercase tracking-wider font-semibold">Valor del intercambio</span>
+                                            <span className="block text-sm text-slate-500 dark:text-slate-400 uppercase tracking-wider font-semibold">Intercambio</span>
                                             <span className="text-xl font-bold text-slate-900 dark:text-white">{activeService.price}</span>
                                         </>
                                     ) : (
-                                        <span className="text-xl font-bold text-slate-900 dark:text-white">Acuerdo mutuo</span>
+                                        <span className="text-xl font-bold text-slate-900 dark:text-white">A medida</span>
                                     )}
                                 </div>
                                 <button
                                     onClick={() => scrollToId("contacto")}
                                     className="inline-flex items-center justify-center px-8 py-4 text-evo bg-primary rounded-xl hover:bg-primary-soft transition-colors font-semibold shadow-lg shadow-primary/20 cursor-pointer"
                                 >
-                                    Solicitar acceso
+                                    Aplicar a tu historia
                                     <ArrowRight className="ml-2 w-5 h-5" />
                                 </button>
                             </div>

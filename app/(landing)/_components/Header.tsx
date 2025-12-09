@@ -50,11 +50,11 @@ export default function Header() {
 
     const navItems = [
         { name: "Inicio", href: "#inicio" },
-        { name: "Servicios", href: "#servicios" },
-        { name: "Ecosistema", href: "#ecosistema" },
-        { name: "Referencias", href: "#referencias" },
-        { name: "Sobre mí", href: "#sobre-mi" },
-        { name: "Reconocimientos", href: "#reconocimientos" },
+        { name: "Método", href: "#servicios" },
+        { name: "Entorno", href: "#ecosistema" },
+        { name: "Voces", href: "#referencias" },
+        { name: "Historia", href: "#sobre-mi" },
+        { name: "Aprendizajes", href: "#reconocimientos" },
     ];
 
     return (

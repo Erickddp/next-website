@@ -4,20 +4,20 @@ export default function EcosistemaSection() {
     const items = [
         {
             title: "El Núcleo",
-            desc: "[NOMBRE] centralizó su existencia aquí. Nada entra ni sale sin permiso.",
-            btnText: "Inyectar",
+            desc: "El centro donde todo converge. Simplicidad absoluta.",
+            btnText: "Abrir",
             icon: <Database className="w-8 h-8 text-primary" />
         },
         {
-            title: "Los Artefactos",
-            desc: "Pequeñas armas para problemas específicos. Eficiencia brutal.",
-            btnText: "Desplegar",
+            title: "Las Herramientas",
+            desc: "Pequeñas ayudas para resolver lo complejo.",
+            btnText: "Usar",
             icon: <Terminal className="w-8 h-8 text-accent" />
         },
         {
-            title: "Zona Cero",
-            desc: "Donde [NOMBRE] prueba lo que podría destruirle o salvarle.",
-            btnText: "Entrar",
+            title: "El Taller",
+            desc: "Un espacio para probar lo nuevo y descartar lo viejo.",
+            btnText: "Explorar",
             icon: <Cpu className="w-8 h-8 text-purple-400" />
         }
     ];
@@ -31,10 +31,10 @@ export default function EcosistemaSection() {
             <div className="container-evo relative z-10">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-                        El Arsenal
+                        El Entorno
                     </h2>
                     <p className="text-xl text-slate-600 dark:text-text-muted max-w-2xl mx-auto">
-                        La tecnología que [NOMBRE] usa para doblar las reglas a su favor.
+                        Espacios donde se construye la calma.
                     </p>
                 </div>
 

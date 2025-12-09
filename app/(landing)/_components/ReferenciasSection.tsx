@@ -3,34 +3,34 @@ import { Quote } from "lucide-react";
 export default function ReferenciasSection() {
     const testimonials = [
         {
-            name: "Sujeto de prueba #1",
-            role: "Sector: Comercio",
-            text: "Antes veía números, ahora veo la matriz. [NOMBRE] me enseñó a leer entre líneas."
+            name: "Voz #1",
+            role: "Comercio",
+            text: "Entendí que perder el molde puede ser ganar un camino propio."
         },
         {
-            name: "Sujeto de prueba #2",
-            role: "Sector: Salud",
-            text: "El sistema silenció el ruido. Ahora puedo escuchar lo que realmente importa."
+            name: "Voz #2",
+            role: "Salud",
+            text: "El ruido desapareció. Ahora solo queda lo importante."
         },
         {
-            name: "Sujeto de prueba #3",
-            role: "Sector: Industrial",
-            text: "Pensé que el caos era inevitable. [NOMBRE] demostró que era una elección."
+            name: "Voz #3",
+            role: "Industria",
+            text: "No era caos, era falta de dirección. Ahora veo el norte."
         },
         {
-            name: "Sujeto de prueba #4",
-            role: "Sector: Privado",
-            text: "La automatización no fue solo técnica, fue liberación espiritual."
+            name: "Voz #4",
+            role: "Privado",
+            text: "Simplificar no es restar, es quedarse con la esencia."
         },
         {
-            name: "Sujeto de prueba #5",
-            role: "Sector: Ventas",
-            text: "Reducir la fricción fue el primer paso para salir del pozo."
+            name: "Voz #5",
+            role: "Ventas",
+            text: "Buscaba una solución, encontré una pausa necesaria."
         },
         {
-            name: "Sujeto de prueba #6",
-            role: "Sector: Consultoría",
-            text: "No contraté un servicio, adquirí una nueva forma de pensar."
+            name: "Voz #6",
+            role: "Consultoría",
+            text: "Crear desde cero requiere valentía y un buen mapa."
         }
     ];
 
@@ -39,7 +39,7 @@ export default function ReferenciasSection() {
             <div className="container-evo">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-6">
-                        Ecos de los Testigos
+                        Reflejos
                     </h2>
                 </div>
 

@@ -16,7 +16,7 @@ export default function SobreMiSection() {
                                 <div className="w-24 h-24 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-4 flex items-center justify-center text-evo text-3xl font-bold shadow-lg">
                                     [N]
                                 </div>
-                                <p className="text-slate-400 dark:text-slate-500 font-medium">Archivo #001</p>
+                                <p className="text-slate-400 dark:text-slate-500 font-medium"></p>
                             </div>
                         </div>
                         {/* Decorative element */}
@@ -25,21 +25,22 @@ export default function SobreMiSection() {
 
                     <div className="order-1 lg:order-2">
                         <h2 className="text-3xl md:text-5xl font-bold text-slate-900 dark:text-white mb-2 tracking-tight">
-                            El Origen
+                            La Historia
                         </h2>
                         <h3 className="text-xl md:text-2xl text-primary dark:text-primary font-medium mb-8">
-                            [NOMBRE] rompió las reglas y pagó el precio.
+                            Un camino de regreso a lo esencial.
                         </h3>
 
                         {/* Desktop Text */}
                         <p className="hidden md:block text-lg text-slate-600 dark:text-text-muted leading-relaxed mb-6">
-                            Todo comenzó con un error de cálculo. Una desviación que le costó todo a [NOMBRE]. Pero en el fondo del pozo, encontró algo: el código fuente de su propia prisión.
-                            EVORIX no es una empresa. Es la filosofía de alguien que aprendió a hackear la vida real. No vendemos servicios; compartimos el mapa de escape que [NOMBRE] trazó con su propia sangre.
+                            [NOMBRE] no quiso ser héroe. Solo dejó de actuar para empezar a ser.
+                            El castigo llegó primero. La libertad, después.
+                            Este espacio está pensado para quien quiera contar su propia versión de esta historia.
                         </p>
 
                         {/* Mobile Text */}
                         <p className="md:hidden text-lg text-slate-600 dark:text-text-muted leading-relaxed mb-6">
-                            [NOMBRE] cayó y se levantó. Ahora comparte las herramientas que forjó en la oscuridad para que otros no tengan que tropezar.
+                            Dejó de sostener lo ajeno para encontrar lo propio. Ahora comparte el mapa.
                         </p>
 
                         <div className="h-1 w-20 bg-primary rounded-full mt-8" />
